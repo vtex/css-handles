@@ -28,3 +28,30 @@ const FooComponent = ({ blockClass }) => {
 export default FooComponent
 ```
 
+### Development
+
+Install `@pika/pack`:
+
+```sh
+npm install -g @pika/pack
+```
+
+You can run its build:
+
+```
+pack build
+```
+
+### Publishing
+
+Install `@pika/pack`:
+
+```sh
+npm install -g @pika/pack
+```
+
+Run:
+
+```
+pack publish
+```
