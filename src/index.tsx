@@ -6,3 +6,7 @@ export const generateBlockClass = (baseClass: string, blockClass?: string) =>
 blockClass
   ? `${baseClass} ${baseClass}--${safelyGetBlockClass(blockClass)}`
   : baseClass
+
+export interface BlockClass {
+  blockClass?: string
+}
