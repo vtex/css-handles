@@ -28,6 +28,14 @@ const FooComponent = ({ blockClass }) => {
 export default FooComponent
 ```
 
+It will render:
+
+```html
+<div class="vtex-foo-1-x-container vtex-foo-1-x-container--bar">
+  Hello world!
+</div>
+```
+
 ### Development
 
 Install `@pika/pack`:
