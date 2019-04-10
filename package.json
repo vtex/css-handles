@@ -1,6 +1,6 @@
 {
-  "name": "css-handles",
-  "version": "1.0.1",
+  "name": "@vtex/css-handles",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "@pika/pack": {
