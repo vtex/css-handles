@@ -1,6 +1,6 @@
 {
   "name": "css-handles",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,10 +9,23 @@
   },
   "@pika/pack": {
     "pipeline": [
-      ["@pika/plugin-standard-pkg", {"exclude": ["__tests__/**/*"]}],
-      ["@pika/plugin-build-node"],
-      ["@pika/plugin-build-web"],
-      ["@pika/plugin-build-types"]
+      [
+        "@pika/plugin-standard-pkg",
+        {
+          "exclude": [
+            "__tests__/**/*"
+          ]
+        }
+      ],
+      [
+        "@pika/plugin-build-node"
+      ],
+      [
+        "@pika/plugin-build-web"
+      ],
+      [
+        "@pika/plugin-build-types"
+      ]
     ]
   },
   "repository": {
