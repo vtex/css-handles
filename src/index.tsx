@@ -5,11 +5,11 @@
  * (Keep an eye on https://github.com/pikapkg/builders/pull/52) */
 
 export function safelyGetBlockClass(blockClass: string) {
-  blockClass ? blockClass.split(' ')[0] : ''
+  return blockClass ? blockClass.split(' ')[0] : ''
 }
 
 export function generateBlockClass(baseClass: string, blockClass?: string) {
-  blockClass
+  return blockClass
     ? `${baseClass} ${baseClass}--${safelyGetBlockClass(blockClass)}`
     : baseClass
 }
