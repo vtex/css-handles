@@ -28,6 +28,10 @@
     "type": "git",
     "url": "git+https://github.com/vtex/css-handles.git"
   },
+  "scripts": {
+    "build": "pack build",
+    "publish": "pack publish"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
