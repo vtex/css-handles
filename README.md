@@ -38,28 +38,16 @@ It will render:
 
 ### Development
 
-Install `@pika/pack`:
+After installing dependencies, with `yarn`, run:
 
 ```sh
-npm install -g @pika/pack
-```
-
-You can run its build:
-
-```
-pack build
+yarn run build
 ```
 
 ### Publishing
 
-Install `@pika/pack`:
+After installing dependencies, with `yarn`, run:
 
 ```sh
-npm install -g @pika/pack
-```
-
-Run:
-
-```
-pack publish
+yarn run publish
 ```
